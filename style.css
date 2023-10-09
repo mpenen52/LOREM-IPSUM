@@ -1,0 +1,32 @@
+.p {
+    text-align: justify;
+}
+      /* LG SCREEN */
+@media only screen and (min-width: 992px){
+    .p {
+    column-count: 3;
+     }
+     .navbar-nav .nav-item {
+        margin-right: 5em; /* Ajusta el valor según tu preferencia */
+    }
+ }
+
+/* MD SCREEN*/
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .p {
+        column-count: 2;
+         }
+     .options {
+        display: none;
+        }
+}
+
+/* SM SCREEN*/
+@media only screen and (max-width: 575px) {
+    .p {
+        column-count: 1;
+         }
+    .options {
+        display: none;
+    }
+}
